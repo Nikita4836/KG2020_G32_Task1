@@ -6,7 +6,7 @@ import java.awt.*;
 
 public class MyWindow extends JFrame {
     public MyWindow()throws HeadlessException{
-        MyCar mc = new MyCar();
-        this.add(mc);
+        DrawPanel dp = new DrawPanel();
+        this.add(dp);
     }
 }
